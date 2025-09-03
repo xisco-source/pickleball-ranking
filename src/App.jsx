@@ -334,7 +334,7 @@ export default function App() {
 
         <textarea
           className="w-full h-40 p-3 border rounded-2xl mt-4"
-          placeholder={`Example:\nJason S. Ebanks\nFrancisco Castillo, Aaron Perera`}
+          placeholder={`Example:\nJohn Doe\nFrancisco Castillo\nBig Show`}
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
